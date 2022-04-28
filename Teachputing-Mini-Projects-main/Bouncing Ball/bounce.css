@@ -1,0 +1,53 @@
+div {
+    background-color: rgb(19, 20, 72);
+    background-image: url("ballbg.png");
+    background-size: 100px 100px;
+    border-radius: 100%;
+    height: 100px;
+    left: calc(50% - 50px);
+    position: absolute;
+    right: calc(50% - 50px);
+    width: 100px;
+    animation: bounce 1s ease-in-out infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+  }
+  
+  span {
+    border-radius: 100%;
+    bottom: 28%;
+    left: calc(50% - 50px);
+    right: calc(50% - 50px);
+    position: absolute;
+    content: '';
+    background-color: black;
+    filter: blur(3px);
+    width: 100px;
+    height: 15px;
+    animation: shadow 1s ease-in-out infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    z-index: -1;
+  }
+  
+  @keyframes bounce {
+    from {
+      top: 25%;
+      transform: scaleX(79.5%) scaleY(65%);
+    }
+    to {
+      top: 55%;
+    }
+  }
+  
+  
+  @keyframes shadow {
+    from {
+      opacity: 0;
+      transform: scale(0);
+    }
+    to {
+      opacity: .5;
+      transform: scale(100%);
+    }
+  }
