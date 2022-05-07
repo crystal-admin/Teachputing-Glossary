@@ -1,0 +1,43 @@
+body {
+    background: rgba(99, 3, 112, 0.479);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form_div {
+    background: whitesmoke;
+    padding: 3%;
+    border: 0.4em solid wheat;
+    border-radius: 0.5rem;
+}
+
+.button {
+    text-align: center;
+    color: navy;
+    font-size: 1em;
+    background: wheat;
+    border: 0.1em solid navy;
+    height: 2em;
+    border-radius: 0.5rem;
+    padding: 2%;
+}
+
+input {
+    height: 2.5em;
+    outline-color: navy;
+}
+
+a{
+    text-decoration: none;
+}
+
+.form_label{
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}

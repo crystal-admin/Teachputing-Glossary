@@ -1,0 +1,177 @@
+body{
+    padding-top: 1%;
+    padding-left: 3%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    position: relative;
+    background: url("../assets/Faith.png");
+    background-repeat: no-repeat;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-family: 'Bangers', cursive;
+    font-weight: 900;
+    font-size: 4.5em;
+    margin-bottom: 1%;
+}
+
+nav{
+    padding: 2px 8.5% 0;
+}
+
+.navbar-nav{
+    margin-top: -2.5%;
+    list-style-type: none;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+
+.nav-item{
+    font-weight: 600;
+    padding-left: 8%;
+    font-size: 1.2em;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+.navbar-toggler{
+    border: 2px solid #027988;
+}
+
+.main-image{
+    position: absolute;
+    top: -18%;
+    width: 73%;
+    left: 65%;
+    height: auto;
+}
+
+#firstsection{
+    margin-top: -0.6%;
+    width: 72%;
+    position: relative;
+    padding-left: 4%;
+}
+
+@media (max-width: 900px){
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: #ffc4af;
+}
+
+    #firstsection{
+        background: #ffc4af;
+    }
+
+    .first{
+        position: static;
+        top: 100%;
+
+
+    }
+    .main-image{
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #secondsection img{
+        width: 90%;
+        margin: 1% auto;
+    }
+}
+
+#firstsection div{
+    padding: 1% 6%;
+}
+
+#secondsection{
+    margin-top:4%;
+    padding: 0;
+
+}
+
+.images img{
+    margin: 2.5%;
+}
+
+#img1{
+    width: 300px;
+    height: 200px;
+    margin-left: 2%;
+    margin-top: 8.5%;
+}
+
+#img2{
+    width: 400px;
+    height: 330px;
+    margin-left: 9.5%;
+    margin-top: -14.8%;
+}
+
+#img3{
+    width: 400px;
+    height: 370px;
+    padding-right: 5%;
+    margin-left: -20%;
+    margin-top: -20%;
+}
+
+h1, .nav-link{
+    color: #027988;
+}
+
+.navbar-brand{
+    color: black;
+    font-family: 'Bangers', cursive;
+    font-weight: 900;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #027988;
+    color: white;
+    text-align: center;
+    outline: none;
+    width: 7em;
+    height: 3em;
+    border: 2px solid #027988;
+    border-radius: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.btn img{
+    width: 20px;
+    height: 20px;
+}
+
+span{
+    display: block;
+    width: 120%;
+}
+
+
+/* FLEX BOX FOR THE IMAGES */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

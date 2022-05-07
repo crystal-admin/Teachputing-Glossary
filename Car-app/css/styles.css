@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    background: rgba(64, 224, 208, 0.801);
+}
+
+.container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.windows{
+    width: 80%;
+    display: flex;
+    background-color: purple;
+    height: 10em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 8rem 0 0 ;
+}
+
+.window{
+    height: 8em;
+    width: 20%;
+    background-color: whitesmoke;
+    border: 0.3em solid black;
+    margin: 1em;
+    position: absolute;
+    top: 2%;
+}
+.windows .four{
+    border-radius:  0 95% 0 0 ;
+    width: 5em;  
+    left: 67%;
+}
+
+.windows .three{
+    background-color: purple;
+    width: 15em;  
+    left: 38%;
+    height: 25em;
+    border-width: 0.15em;
+    border-radius: 0.3em;
+}
+
+.sub{
+    top: -3%;
+    width: 40%;
+    height: 45%;
+    border-radius: 0.9em;
+}
+
+.sub1{
+    top: -3%;
+    width: 40%;
+    height: 45%;
+    left: 7em;
+    border-radius: 0.9em;
+}
+
+.sub2{
+    top: 47%;
+    width: 86%;
+    height: 45%;
+    border-radius: 0.9em;
+}
+
+.windows .one{ 
+    width: 8em; 
+    left: 20.5%;
+}
+
+.windows .p1{
+    color: wheat;
+    top: 47%;
+    background: transparent;
+    border: none;
+    font-family: cursive;
+    font-size: 2.5em;
+    left: 71%;
+}
+.windows .p2{
+    color: wheat;
+    top: 30%;
+    background: transparent;
+    border: none;
+    left: 4%;
+    font-family: cursive;
+    font-size: 2.5em;
+}
+
+.windows .two{
+    width: 8em;   
+    left: 3%;
+}
+
+.doors{
+    background: purple;
+    width: 100%;
+    height: 18em;
+    display: flex;
+    border-radius:  0 6em 0 0 ;
+}
+
+.tires{
+    display: flex;
+}
+
+.tire{
+    width: 10em;
+    height: 10em;
+    background-color: #121212;
+    border-radius: 50%;
+}
+
+.tires .one{
+    position: absolute;
+    top: 85%;
+    left: 12%;
+    border: 0.3em solid white;
+}
+
+.tires .two{
+    position: absolute;
+    top: 85%;
+    left: 75%;
+    border: 0.3em solid white;    
+}

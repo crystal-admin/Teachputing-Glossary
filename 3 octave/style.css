@@ -1,0 +1,123 @@
+body{
+    background: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: black;
+    width: 80%;
+    height: 20%;
+    padding: 8% 2% 2%;
+    border-radius: 0.6em;
+    display: flex;
+    flex-direction: row;
+}
+
+.white-keys{
+    background-color: white;
+    height: 16em;
+    width: 0.8em;
+    flex: 1;
+    border: 0.01em solid black;
+    border-radius: 0 0 0.15rem 0.15rem;
+    position: relative; 
+    text-align: center;
+    cursor: pointer;
+}
+
+.white-keys p{
+    margin-top: 12em;
+}
+
+.black-keys{
+    height: 8em;
+    width: 2em;
+    position: absolute;
+    z-index: 1;
+    color: wheat;
+    text-align: center;
+    background: black;
+    top: 7.35em;
+    border-radius: 0 0 0.15rem 0.15rem;
+    cursor: pointer;
+    
+}
+
+.black-keys p{
+    margin-top: 5em;
+}
+
+.cs{
+    right: 72.1em;
+}
+
+.ds{
+    right: 68.8em;
+}
+
+.fs{
+    right: 62.3em;
+}
+
+.gs{
+    right: 59em;
+}
+
+.as{
+    right: 55.8em;
+}
+
+.cs1{
+    right: 49.3em;
+}
+
+.ds1{
+    right: 46em;
+}
+
+.fs1{
+    right: 39.5em;
+}
+
+.gs1{
+    right: 36.3em;
+}
+
+.as1{
+    right: 33em;
+}
+
+.cs2{
+    right: 26.5em;
+}
+
+.ds2{
+    right: 23.3em;
+}
+
+.fs2{
+    right: 16.8em;
+}
+
+.gs2{
+    right: 13.6em;
+}
+
+.as2{
+    right: 10.3em;
+}
+
+.power{
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    background: rgb(199, 3, 3);
+    border-radius: 45%;
+    top: 3em;
+    right: 10em;
+    cursor: pointer;
+}
