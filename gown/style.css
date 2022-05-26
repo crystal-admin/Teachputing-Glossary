@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+}
+
+#main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.straps{
+    width: 6.5em;
+    display: flex;
+}
+
+.strap{
+    width: 1em;
+    height: 2em;
+    background: peru;
+    border-bottom: none;
+    border-radius: 0.2rem 0.2rem 0 0;
+}
+
+.strap2{
+    margin-left: 80%;
+}
+
+.top-gown{
+    width: 8em;
+    height: 8rem;
+    display: flex;
+}
+
+.top-1{
+    width: 4rem;
+    height: 8rem;
+    background: peru;
+    border-radius: 0.5rem 1.5rem 0 1rem;
+}
+
+.top-2{
+    width: 4rem;
+    height: 8rem;
+    background: peru;
+    border-radius: 1.5rem 0.5rem 1rem 0;
+}
+
+.waist{
+    width: 6em;
+    height: 1em;
+    background: black;
+    border-radius: 0.1rem;
+}
+
+.bottom-gown{
+    width: 12rem;
+    height: 20rem;
+    background: peru;
+    border-radius: 3.5rem 3.5rem 0 0;
+}

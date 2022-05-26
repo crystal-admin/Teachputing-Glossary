@@ -1,0 +1,57 @@
+body{
+    width: 100%;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.shoes{
+    padding: 5%;
+}
+
+.strap{
+    height: 2em;
+    background: brown;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.strap1{
+    width: 3em;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.soles{
+    display: flex;
+    margin: 0;
+}
+
+.first-sole{
+    width: 4em;
+    height: 0.5em;
+    background: black;   
+    border-radius: 1rem;   
+}
+
+.second-sole{
+    width: 4em;
+    height: 0.5em;
+    background: black;   
+    border-radius: 1rem;
+    transform: rotate(-25deg);
+    margin-left: -1%;
+    margin-top: -2%;
+}
+
+.heel{
+    width: 0.5em;
+    height: 2em;
+    margin-left: 17.8%;
+    margin-top: -5%;
+    background: black;
+}

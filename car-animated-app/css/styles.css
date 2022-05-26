@@ -1,0 +1,197 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    background: linear-gradient(white 0%, turquoise 50%, brown 100%);
+}
+
+.container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.windows{
+    width: 80%;
+    display: flex;
+    background-color: purple;
+    height: 10em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 8rem 0 0 ;
+}
+
+.window{
+    height: 8em;
+    width: 20%;
+    background-color: whitesmoke;
+    border: 0.3em solid black;
+    margin: 1em;
+    position: absolute;
+    top: 2%;
+}
+.windows .four{
+    border-radius:  0 95% 0 0 ;
+    width: 5em;  
+    left: 67%;
+}
+
+.windows .three{
+    background-color: purple;
+    width: 15em;  
+    left: 38%;
+    height: 25em;
+    border-width: 0.15em;
+    border-radius: 0.3em;
+}
+
+.sub{
+    top: -3%;
+    width: 40%;
+    height: 45%;
+    border-radius: 0.9em;
+}
+
+.sub1{
+    top: -3%;
+    width: 40%;
+    height: 45%;
+    left: 7em;
+    border-radius: 0.9em;
+}
+
+.sub2{
+    top: 47%;
+    width: 86%;
+    height: 45%;
+    border-radius: 0.9em;
+}
+
+.windows .one{ 
+    width: 8em; 
+    left: 20.5%;
+}
+
+.windows .p2{
+    color: wheat;
+    top: 30%;
+    background: transparent;
+    border: none;
+    left: 2%;
+    font-family: cursive;
+    font-size: 2.5em;
+    display: inline;
+}
+
+.windows .two{
+    width: 8em;   
+    left: 3%;
+}
+
+.doors{
+    background: purple;
+    width: 100%;
+    height: 18em;
+    display: flex;
+    border-radius:  0 6em 0 0 ;
+}
+
+.tires{
+    display: flex;
+}
+
+.tire{
+    width: 10em;
+    height: 10em;
+    background-color: #121212;
+    border-radius: 50%;
+    animation: tire .5s linear infinite;
+}
+
+@keyframes tire{
+100%{
+    transform: rotate(360deg);
+}
+}
+
+.tires .one{
+    position: absolute;
+    top: 85%;
+    left: 12%;
+    border: 0.3em solid white;
+}
+
+.tires .two{
+    position: absolute;
+    top: 85%;
+    left: 75%;
+    border: 0.3em solid white;    
+}
+
+.tire-style{
+    width: 2em;
+    height: 0.3em;
+    background: white;
+    border-radius: 50%;
+    margin-top: 50%;
+    margin-left: 5%;
+}
+
+.tire-style1{
+    width: 2em;
+    height: 0.3em;
+    background: white;
+    border-radius: 50%;
+    margin-top: -3%;
+    margin-left: 80%;
+}
+
+.track{
+    background: #121212;
+    width: 350%;
+    height: 11em;
+    position: absolute;
+    top: 71.8%;
+    animation: track .5s ease-in-out infinite;
+    z-index: 0;
+    
+}
+
+@keyframes track{
+    100%{
+        transform: translate(-100vw);
+    }
+}
+
+.track-one{
+    width: 20em;
+    height: 2em;
+    background: white;
+    background-repeat: repeat-x;
+    top: 50%;
+    position: absolute;
+    left: 5%;
+    animation: track .5s ease-in-out infinite;
+}
+
+.track-two{
+    width: 20em;
+    height: 2em;
+    animation: track .5s ease-in-out infinite;
+    background: white;
+    top: 50%;
+    position: absolute;
+    /* left: 50%; */
+}
+
+.track-three{
+    width: 20em;
+    height: 2em;
+    animation: track .5s ease-in-out infinite;
+    background: white;
+    top: 50%;
+    position: absolute;
+    left: 95%;
+}

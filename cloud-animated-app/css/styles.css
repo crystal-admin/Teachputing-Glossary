@@ -1,0 +1,143 @@
+body{
+    background: rgba(64, 224, 208, 0.822);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sky{
+    width: 90%;
+    height: 90%;
+}
+
+.sun{
+    position: relative;
+    width: 15em;
+    height: 7.5em;
+    margin-top: 2rem;
+}
+
+.sun-ball{
+    width: 7rem;
+    height: 7rem;
+    background: gold;
+    border-radius: 50%;
+    margin-left: 70rem;
+    box-shadow: 0.2rem 0.2rem 2rem gold;    
+}
+
+.sun-rays{
+    width: 7.5rem;
+    height: 7.5rem;
+    position: relative;
+    margin-left: 73.5rem;
+    margin-top: -8.5rem;
+}
+
+.sunray{
+    width: 0.2rem;
+    height: 10rem;
+    background: gold;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0.1rem 0.1rem 0.5rem gold;
+}
+
+.ray1{
+    transform: rotate(60deg);
+}
+
+.ray2{
+    transform: rotate(-55deg);
+}
+
+.cloud1{
+    margin-left: 5%;
+}
+
+.cloud2{
+    margin-top: 20%;
+    margin-left: 1%;
+}
+
+.cloud3{
+    margin-top: -40%;
+    margin-left: 75%;
+}
+
+.cloud4{
+    margin-left: 45%;
+}
+
+.cloud5{    
+    margin-left: 85%;
+}
+
+.cloud1,.cloud2,.cloud3{
+    animation: cloud1 5s ease-in-out infinite;
+}
+
+.cloud4,.cloud5{
+    animation: cloud2 5s ease-in-out 4s infinite;
+}
+
+@keyframes cloud1{
+0%{
+    left: 0;
+}
+50%{
+    left: 3%;
+}
+100%{
+        left: 0;
+}
+}
+
+@keyframes cloud2{
+    0%{
+        bottom: 2%;
+        left: 0;
+    }
+    50%{
+        left: -3%;
+    }
+    100%{
+        left: 0%;
+    }
+    }
+
+.cloud{
+    position: relative;
+    width: 15em;
+    height: 7.5em;
+}
+
+.set1{
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    position: absolute;
+    background-color: aliceblue;
+    top: 12%;
+    left: 10%;
+}
+ 
+.set2{
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    position: absolute;
+    background-color: aliceblue;
+    left: 33%;
+}
+ 
+.set3{
+    width: 13em;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 40%;
+    background-color: aliceblue;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0,0,0,0.2);
+    
+}

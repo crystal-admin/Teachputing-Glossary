@@ -1,0 +1,130 @@
+body{
+    width: 100%;
+}
+
+.main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.knobs{
+    display: flex;
+    justify-content: center;
+    background: brown;
+    width: 4rem;
+    height: 6rem;
+    border-radius: 1rem 1rem 0.5rem 0.5rem;
+}
+
+.knob{
+    padding-top: 30%;
+    padding-left: 20%;
+    flex: 1;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+}
+
+.knob1{
+    background: silver;
+}
+
+.knob2{
+    margin-top: 100%;
+    background: silver;
+}
+
+.knob3{
+    margin-top: 150%;
+    background: silver;
+}
+
+/* .first-row .knob2{
+    margin-right: -3%;
+} */
+
+.strings{
+    display: flex;
+    background: brown;
+    width: 3.5em;
+    height: 12rem;
+    border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.string{
+    margin-right: 3%;
+    height: 24rem;
+    background: silver;
+    border-radius: 50%;
+    padding-bottom: 2%;
+    z-index: 2;
+}
+
+.string1{
+    width: 0.05rem;
+    margin-left: 15%;
+}
+
+.string2{
+    width: 0.1rem;
+    margin-left: 5%;
+}
+
+.string3{
+    width: 0.15rem;
+    margin-left: 5%;
+}
+
+.string4{
+    width: 0.2rem;
+    margin-left: 6%;
+}
+
+.string5{
+    width: 0.25rem;
+    margin-left: 6%;
+}
+
+.string6{
+    width: 0.3rem;
+    margin-left: 6%;
+}
+
+.top-body{
+    width: 8rem;
+    height: 3rem;
+    background: brown;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.bottom-body{
+    width: 12rem;
+    height: 12rem;
+    background: brown;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sound-hole{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: black;
+    border: 0.1rem solid gray;
+}
+
+.string-bar{
+    margin-top: 8%;
+    width: 4rem;
+    height: 1rem;
+    border-radius: 5%;
+    background: black;
+    z-index: 3;
+}

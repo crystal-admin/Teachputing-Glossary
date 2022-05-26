@@ -1,0 +1,50 @@
+body{
+    width: 100%;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    background: brown;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.hands{
+    width: 3rem;
+    height: 5rem;
+    background: white;
+}
+
+.body{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collar{
+    margin-top: -5%;
+    width: 6em;
+    height: 1.5rem;
+    background: white;
+    border: 0.1em solid black;
+    border-radius: 50%;
+}
+
+.body1{
+    width: 12rem;
+    height: 14rem;
+    background: white;
+    border-radius: 0.5rem;
+}
+
+.hand1{
+    border-radius: 0.2rem 0 0.3rem 0.2rem;
+}
+
+.hand2{
+    border-radius: 0 0.2rem 0.2rem 0.3rem;
+}

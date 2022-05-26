@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+}
+
+.container{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.handles{
+    margin-top: 2%;
+    display: flex;
+}
+
+.handle{
+    height: 3rem;
+    width: 3rem;
+    border: 0.3rem solid gray;
+    border-bottom: none;
+    border-radius: 1.9rem 1.9rem 0 0;
+}
+
+.handle1{
+    transform: rotate(5deg);
+}
+
+.handle2{
+    margin-left: 6rem;
+    transform: rotate(-5deg);
+}
+
+.pot-body{
+    margin-top: -1%;
+    background: linear-gradient(to right, gray 10%, silver 70%, gray 100%);
+    height: 8rem;
+    width: 13.5rem;
+    border-radius: 0 0 1rem 1rem;
+    z-index: 2;
+    box-shadow: 0.1rem 0.1rem 1rem rgba(0,0,0,0.4);
+}
