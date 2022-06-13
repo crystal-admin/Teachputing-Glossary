@@ -26,12 +26,14 @@ body{
 }
 
 .handle1{
-    transform: rotate(5deg);
+    transform: rotate(-10deg);
+    position: relative;
+    z-index: 3;
 }
 
 .handle2{
-    margin-left: 6rem;
-    transform: rotate(-5deg);
+    margin-left: 6.8rem;
+    transform: rotate(10deg);
 }
 
 .pot-body{

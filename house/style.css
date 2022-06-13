@@ -6,6 +6,7 @@ body{
     display: flex;
     justify-content: space-around;
     position: relative;
+    margin: 0;
 }
 
 .house{
@@ -19,14 +20,14 @@ body{
 .roof{
     width: 0;
     height: 0;
-    border: 25rem solid transparent;
-    border-bottom: 10rem solid brown;
+    border: 30rem solid transparent;
+    border-bottom: 15rem solid brown;
     border-top: 0;
 }
 
 .body{
-    width: 35rem;
-    height: 20rem;
+    width: 45rem;
+    height: 25rem;
     background: wheat;
     display: flex;
     justify-content: space-around;
@@ -62,24 +63,49 @@ body{
     margin-left: 5%;
 }
 
-/* .pathway{
+.patio{
+   top: 65%;
+   position: absolute;
+   width: 100%;
+}
+
+.post-sleeves{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-sleeve{
+    width: 100%;
+    height: 1em;
+    background: white;
+}
+
+.sleeve1{
+    margin-bottom: 12%;
+}
+
+.post-pipes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-pipe{
+    margin-top: -15%;
+    width: 2em;
+    height: 14em;
     background: whitesmoke;
-    width: 20rem;
-    height: 7rem;
-    transform: rotate(-3deg);
-    margin-top: -1%;
-    border: 1rem solid bisque;
-    border-top: none;
-} */
+}
 
 .flower-pot{
-    margin-top: 30%;
+    margin-top: 37%;
     width: 8rem;
     height: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
 
 .flowers{

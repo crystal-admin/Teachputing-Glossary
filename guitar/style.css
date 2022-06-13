@@ -95,21 +95,23 @@ body{
 }
 
 .top-body{
-    width: 8rem;
-    height: 3rem;
+    width: 10rem;
+    height: 6rem;
     background: brown;
-    border-radius: 1.5rem 1.5rem 0 0;
+    border-radius: 40%;
+    margin-top: -1%;
 }
 
 .bottom-body{
     width: 12rem;
     height: 12rem;
     background: brown;
-    border-radius: 1rem;
+    border-radius: 5rem 5rem 4.8rem 4.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: -6%;
 }
 
 .sound-hole{
