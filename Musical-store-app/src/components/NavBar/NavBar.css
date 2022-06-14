@@ -1,0 +1,27 @@
+.NavBar{
+    background: turquoise;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 4rem;
+    align-items: center;
+}
+
+.NavBar p img {
+ width: 1.5em;
+ height: 1.5em;
+}
+
+.navbar-nav{
+    list-style-type: none;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.nav-link{
+    flex: 1;
+    text-decoration: none;
+    color: white;
+    left: 5%;
+}

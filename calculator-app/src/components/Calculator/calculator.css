@@ -1,0 +1,14 @@
+.Calculator{
+    width: 30%;
+    background: gold;
+    padding: 3%;
+    border-radius: 3rem;
+    margin: 5% auto 0;
+    text-align: center;
+}
+
+h2{
+    letter-spacing: 0.1rem;
+    margin: 0;
+    font-size: 1.3rem;
+}

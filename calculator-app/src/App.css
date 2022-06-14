@@ -1,0 +1,9 @@
+.App{
+  font-family: 'Inter';
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
