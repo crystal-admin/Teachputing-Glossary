@@ -782,7 +782,7 @@ q71 = {
 
 q72 = {
     q: "All are javascript data types except",
-    a: "03",
+    a: "04",
     o: {
         01: "Array",
         02: "Boolean",
@@ -980,7 +980,7 @@ q89 = {
 
 q90 = {
     q: "A javascript array uses one of the following",
-    a: "01",
+    a: "03",
     o: {
         01: "z = x(i)",
         02: "z = x{i}",
